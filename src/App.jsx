@@ -7,8 +7,8 @@ export default function App(){
   return (
     <ColorProvider>
       <Routes>
-        <Route path="/" element={<ColorList />}/>
-        <Route path=":id" element={<ColorDetails />} />
+        <Route path="/color-organizer" element={<ColorList />}/>
+        <Route path="/:id" element={<ColorDetails />} />
       </Routes>
     </ColorProvider>
   )
